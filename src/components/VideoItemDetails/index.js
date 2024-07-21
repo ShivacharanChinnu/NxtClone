@@ -121,8 +121,8 @@ class VideoItemDetails extends Component {
           //  videoSaved,
         } = videoDetails
         const {name, profileImageUrl, subscriberCount} = channel
-        const {savedVideos, isDarkTheme, addToSaveVideos, removeSaveVideos} =
-          value
+        const {savedVideos, isDarkTheme} = value
+        const {addToSaveVideos, removeSaveVideos} = value
         const isThisSavedVideo = savedVideos.find(
           each => each.id === videoDetails.id,
         )
