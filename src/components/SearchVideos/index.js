@@ -142,7 +142,7 @@ class SearchVideos extends Component {
                 data-testid="searchButton"
                 onClick={this.onClickSearchButton}
               >
-                <AiOutlineSearch />
+                <AiOutlineSearch  aria-label="close"  />
               </button>
             </div>
             <VideosContainer>
